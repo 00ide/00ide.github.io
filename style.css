@@ -1,0 +1,64 @@
+body {
+    background-image:url(KAZ88_syoumetutoshi.jpg);
+    /* position: relative;
+    width: 100%;
+    min-width: 1200px */
+}
+h1 {
+    background-color: lightpink;
+}
+.title.big{
+    background-color: rgb(255, 234, 123);
+}
+.big{
+    font-size: 60px;
+}
+#title{
+    background-color: orange;
+}
+div{
+    color: blue;
+    font-size: 2rem; 
+    background-color:rgba(2, 255, 215, 1);
+    /* width: calc(100% / 3); */
+    /* margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-right:0; */
+    /* margin: 100px 0 50 30; */
+}
+article p:not(first-of-type){
+    color: darkblue;
+}
+/* a[href="#3"]{
+    color: crimson;
+} */
+nav{
+    color: white;
+}
+a{
+    color: inherit;
+}
+li:hover{
+    background-color:rgba(2, 255, 215, 1);
+}
+p:hover{
+    background-color: rgb(255, 255, 0);
+}
+p::first-letter{
+    font-size: 50px;
+}
+h1::after{
+    content: "!!!!!!";
+}
+/* nav > div {
+    color: initial;
+    background-color:initial;
+    border: 3px solid yellow;
+} */
+time{
+    color: white;
+}
+footer{
+    color:white;
+}
