@@ -42,9 +42,9 @@ a{
 li:hover{
     background-color:rgba(2, 255, 215, 1);
 }
-p:hover{
+/* p:not(last-of-type)hover{
     background-color: rgb(255, 255, 0);
-}
+} */
 p::first-letter{
     font-size: 50px;
 }
@@ -61,4 +61,7 @@ time{
 }
 footer{
     color:white;
+}
+p:not(first-of-type){
+    text-align: right; 
 }
