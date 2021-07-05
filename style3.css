@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(1550382.jpg);
+}
+header {
+    height: 150px;
+    font-size: 2rem; 
+    color: purple
+}
+article {
+    color: white;
+    background-color: indigo;
+}
+nav{
+    background-color: white;
+}
+li:hover {
+    background-color: lavender;
+}
+.v_line_right {
+    border-right: thick solid indigo;
+    padding-right: 10px;
+  }
+div {
+    display: flex; 
+}
+main{
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer {
+    height: 200px;
+}
+p:not(first-of-type){
+    text-align: right; 
+}
